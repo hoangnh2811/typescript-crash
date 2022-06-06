@@ -1,0 +1,10 @@
+"use strict";
+exports.__esModule = true;
+var classImplementsInterface_1 = require("./classImplementsInterface");
+var documentOne = new classImplementsInterface_1.Invoice('Vinamilk', 'drink milk', 5000000);
+var documentTwo = new classImplementsInterface_1.Payment('Vietnam Airlines', 'fly', 25000000);
+var allDocument = [];
+allDocument.push(documentOne);
+allDocument.push(documentTwo);
+console.log(allDocument);
+console.log(documentOne.print());
